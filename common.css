@@ -31,36 +31,44 @@ body {
   background-size: cover;
 }
 
-<<<<<<< HEAD .bestSeries {
+.bestSeries {
   height: 690px;
-
   /* max 2160px */
-  =======.homeBestSeries {
-    max-width: 3840px;
-    height: 990px;
-    /* max 2160px */
-    background-image: url("https://cdn.discordapp.com/attachments/739854219485380616/982252604245549056/unknown.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    >>>>>>>flux
-  }
+}
 
-  .bestSeriesContent {
-    width: 960px;
-    height: 540px;
-    background-image: url("https://cdn.discordapp.com/attachments/739854219485380616/982266421700616222/star-wars-obi-wan-kenobi-photo-1433710.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 25px;
-  }
+.bestSeriesContent {
+  width: 960px;
+  height: 540px;
+  background-image: url("https://cdn.discordapp.com/attachments/739854219485380616/982266421700616222/star-wars-obi-wan-kenobi-photo-1433710.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 25px;
+}
 
-  .bestSeriesContent .thumbsCT {
-    margin-top: 200px !important;
-  }
+.bestSeriesContent .thumbsCT {
+  margin-top: 200px !important;
+}
 
-  .btnColorSee {
-    background-color: rgb(146, 184, 255);
-    color: #333;
-  }
+.thumbsCT .thumb {
+  border-radius: 15px;
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.thumbsCT .thumb:hover {
+  transform: scale(1.1);
+}
+
+.subscribeTo {
+  max-width: 1920px;
+  height: 990px;
+  /* 640px */
+  background-image: url("https://cdn.discordapp.com/attachments/739854219485380616/982278369913757757/disney-plus-head-banner-logo_0384012C00947643.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #124aa1;
+}
+
+.subscribeTo .content {
+  margin-top: 640px;
+}
