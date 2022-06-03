@@ -1,4 +1,18 @@
 body {
   background-color: #333;
   color: white;
+  background-image: url("https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.searchFieldBorderRadius {
+  border-radius: 25px;
+}
+
+.maxWidth500px {
+  max-width: 400px;
+}
+
+.btnColorSee {
+  background-color: rgb(146, 184, 255);
+  color: #333;
 }
